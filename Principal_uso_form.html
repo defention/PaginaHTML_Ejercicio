@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Usos Form</title>
+    </head>
+    <body>
+        </div>
+            <form action="Form.html" method="GET">
+                <!--
+                For le ligas un nombre y id asignas nombre a variable, required obligatorio 
+                name le da un nombre
+                -->
+                <div>
+                    <label for="nombreUsuario">nombre de usuario</label>
+                    <input name="nombreUsuario" id="nombreUsuario" required>
+                </div>
+                <br>
+                <div>
+                    <label for="contraUsuario">Contraseña</label>
+                    <input type="password" name="contraUsuario" id="contraUsuario" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" >
+                </div>
+                <br>
+                <div>
+                    <label for="nacimiento">Cual es tu fecha de nacimiento</label>
+                    <input type="date" name="nacimiento" id="nacimiento" >
+                </div>
+                <br>
+                <div>
+                    <label for="edad">Edad</label>
+                    <input type="number" name="edad" id="edad" min="0" max="100">
+                </div>
+                <br>
+                <div>
+                    <label>Comentarios</label>
+                    <textarea></textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Guardar</button>
+                </div>
+             </form>
+        <div>
+    </body>
+</html>
